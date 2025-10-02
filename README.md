@@ -43,4 +43,3 @@ A modern, responsive personal finance management application built with pure HTM
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/budget-tracker-pro.git# budget-tracker-pro
-# budget-tracker-pro
