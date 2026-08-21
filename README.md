@@ -1,45 +1,39 @@
-# 💰 Budget Tracker Pro
+# Budget Tracker Pro — Personal Finance Dashboard
 
-A modern, responsive personal finance management application built with pure HTML, CSS, and JavaScript.
+> Responsive finance interface for tracking cash flow, categories and savings goals.
 
-![Budget Tracker Dashboard](assets/images/budget-dashboard-screenshot.png)
-![Budget Categories](assets/images/budget-categories-screenshot.png)
+## Product overview
 
-## ✨ Features
+Budget Tracker Pro turns everyday personal-finance tasks into a dashboard workflow: users can review their current position, inspect spending trends, manage categories, set goals and record transactions.
 
-### 📊 Financial Dashboard
-- **Real-time Balance Tracking**: Current financial position at a glance
-- **Summary Metrics**: Income, expenses, savings, and budget usage
-- **Trend Indicators**: Visual indicators showing financial progress
-- **Interactive Cards**: Hover effects and smooth animations
+## Key capabilities
 
-### 📈 Smart Analytics
-- **Spending Overview**: Interactive line charts comparing income vs expenses
-- **Time Period Filters**: Switch between weekly, monthly, and yearly views
-- **Category Breakdown**: Visual spending distribution across categories
-- **Progress Tracking**: Goal achievement with progress bars
+- balance and financial summary dashboard;
+- income vs expense analytics;
+- weekly, monthly and yearly views;
+- category breakdowns;
+- savings and budget goals;
+- transaction creation;
+- form validation;
+- responsive interaction patterns.
 
-### 🗂️ Expense Categories
-- **Visual Organization**: Color-coded categories with custom icons
-- **Percentage Analysis**: Clear breakdown of spending distribution
-- **Common Categories**: Housing, Food, Transportation, Shopping, Entertainment
-- **Flexible System**: Easy to add new categories
+## Product thinking
 
-### 🎯 Budget Goals
-- **Goal Setting**: Set and track financial targets
-- **Progress Visualization**: Colorful progress bars with percentages
-- **Multiple Goals**: Support for emergency funds, vacations, major purchases
-- **Achievement Tracking**: Real-time progress updates
+The design emphasizes progressive disclosure: the current financial position is visible first, while trends, categories and goals provide deeper context. This makes a potentially dense finance interface easier to scan.
 
-### ➕ Transaction Management
-- **Quick Entry**: Floating action button for easy transaction input
-- **Smart Categorization**: Pre-defined categories with custom options
-- **Income & Expense Support**: Track both money in and money out
-- **Form Validation**: Comprehensive input validation
+## Stack
 
-## 🚀 Quick Start
+**HTML5 · CSS3 · JavaScript · responsive UI · data visualization**
 
-### Installation
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/budget-tracker-pro.git# budget-tracker-pro
+## Run locally
+
+```bash
+git clone https://github.com/nestlir/budget-tracker-pro.git
+cd budget-tracker-pro
+```
+
+Open `index.html` or serve the directory with a static HTTP server.
+
+## Context
+
+Presented as a product/frontend case study demonstrating dashboard design, financial data presentation and interaction patterns.
