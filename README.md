@@ -1,39 +1,49 @@
-# Budget Tracker Pro — Personal Finance Dashboard
+# Budget Tracker Pro
 
-> Responsive finance interface for tracking cash flow, categories and savings goals.
+Responsive personal finance dashboard for visualizing income, expenses, savings and budget goals.
 
-## Product overview
+## Features
 
-Budget Tracker Pro turns everyday personal-finance tasks into a dashboard workflow: users can review their current position, inspect spending trends, manage categories, set goals and record transactions.
-
-## Key capabilities
-
-- balance and financial summary dashboard;
-- income vs expense analytics;
-- weekly, monthly and yearly views;
-- category breakdowns;
-- savings and budget goals;
-- transaction creation;
-- form validation;
-- responsive interaction patterns.
-
-## Product thinking
-
-The design emphasizes progressive disclosure: the current financial position is visible first, while trends, categories and goals provide deeper context. This makes a potentially dense finance interface easier to scan.
+- financial summary cards;
+- spending overview chart;
+- category breakdown;
+- budget goals and progress indicators;
+- transaction form and modal interface;
+- responsive dashboard layout.
 
 ## Stack
 
-**HTML5 · CSS3 · JavaScript · responsive UI · data visualization**
+- HTML5
+- CSS3
+- JavaScript
+- Chart.js
+- Font Awesome
 
 ## Run locally
 
+No build step is required.
+
+Clone the repository and open `index.html` in a browser, or serve it with any static HTTP server.
+
+Example:
+
 ```bash
-git clone https://github.com/nestlir/budget-tracker-pro.git
-cd budget-tracker-pro
+npx serve .
 ```
 
-Open `index.html` or serve the directory with a static HTTP server.
+## Project structure
 
-## Context
+```text
+assets/       Images and screenshots
+css/          Application styles
+js/           Dashboard and interaction logic
+index.html    Application entry point
+```
 
-Presented as a product/frontend case study demonstrating dashboard design, financial data presentation and interaction patterns.
+## Deployment
+
+The repository includes GitHub Actions configuration for automatic deployment to GitHub Pages when `main` is updated.
+
+## Notes
+
+This project is a frontend dashboard case study focused on layout composition, financial data presentation and client-side interactions.

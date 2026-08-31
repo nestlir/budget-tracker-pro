@@ -1,15 +1,10 @@
-// Main application initialization
 document.addEventListener('DOMContentLoaded', function() {
-    // Set today's date as default in the form
     document.getElementById('date').valueAsDate = new Date();
-    
-    // Initialize all modules
     initializeCharts();
     initializeTransactionHandlers();
     initializeFilterButtons();
 });
 
-// Utility functions
 const BudgetTracker = {
     formatCurrency: (amount) => {
         return new Intl.NumberFormat('en-US', {

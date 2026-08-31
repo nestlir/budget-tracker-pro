@@ -1,4 +1,3 @@
-// Chart initialization and management
 let spendingChart;
 
 function initializeCharts() {
@@ -99,11 +98,9 @@ function initializeFilterButtons() {
         button.addEventListener('click', function() {
             const period = this.getAttribute('data-period');
             
-            // Update active button
             filterButtons.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
             
-            // Update chart data
             updateChartData(period);
         });
     });
